@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Main.module.css';
-import Task1 from "../../utils/Task1";
 
 
 const Main = () => {

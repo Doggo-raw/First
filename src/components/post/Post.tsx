@@ -8,7 +8,7 @@ const Post = () => {
 
             <div className={styles.post_content}>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus eum, expedita facilis id laborum maiores neque nesciunt, nulla omnis porro quasi repudiandae voluptate.</p>
+                <p>Lovrem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus eum, expedita facilis id laborum maiores neque nesciunt, nulla omnis porro quasi repudiandae voluptate.</p>
 
                 <div className={styles.btn_container}>
 
