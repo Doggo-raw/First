@@ -1,0 +1,67 @@
+.template_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+}
+
+
+.post_content{
+    margin-left: 1em;
+    padding-top: 0.8em;
+    width: 86%;
+    height: 20vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    border-radius: 10px;
+}
+.btn_container{
+    height: 65%;
+    width: 98%;
+    display: flex;
+    align-items: center;
+}
+
+.posts_btn{
+    display: flex;
+    align-self: end;
+    width: 100%;
+}
+.posts_btn button{
+    width: 4em;
+    height: 2em;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.1s;
+    background-color: #0074e0;
+    color: white;
+    font-weight: bold;
+}
+
+
+.posts_btn button:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+
+.delete_btn{
+    width: 4em;
+    height: 2em;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    align-self: end;
+    background-color: #0074e0;
+    color: white;
+    font-weight: bold;
+}
+.delete_btn:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 0.1s;
+}
